@@ -1,0 +1,19 @@
+.transaction {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.transaction th,
+.transaction td {
+  border: 1px solid black;
+  text-align: center;
+}
+.transaction th {
+  background-color: #2b2b2b;
+  color: white;
+  font-weight: 600;
+}
+.transaction tbody tr:nth-child(2n) {
+  background-color: #d3d3d3;
+}
