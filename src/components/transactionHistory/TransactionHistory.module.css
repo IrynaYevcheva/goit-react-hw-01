@@ -8,11 +8,17 @@
 .transaction td {
   border: 1px solid black;
   text-align: center;
+  padding: 2px 56px;
 }
 .transaction th {
   background-color: #2b2b2b;
   color: white;
   font-weight: 600;
+}
+
+.transaction tbody tr td:first-child {
+  text-transform: capitalize;
+  text-align: left;
 }
 .transaction tbody tr:nth-child(2n) {
   background-color: #d3d3d3;

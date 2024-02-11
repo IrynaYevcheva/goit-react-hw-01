@@ -15,7 +15,7 @@ export const TransactionHistory = ({ items }) => {
         {items.map(({ id, type, amount, currency }) => {
           return (
             <tr key={id}>
-              <td>{ucFirst(type)}</td>
+              <td>{type}</td>
               <td>{amount}</td>
               <td>{currency}</td>
             </tr>
@@ -26,7 +26,7 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-function ucFirst(str) {
-  if (!str) return str;
-  return str[0].toUpperCase() + str.slice(1);
-}
+// function ucFirst(str) {
+//   if (!str) return str;
+//   return str[0].toUpperCase() + str.slice(1);
+// }
