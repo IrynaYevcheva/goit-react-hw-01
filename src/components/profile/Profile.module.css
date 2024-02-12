@@ -33,7 +33,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-li {
+.listItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +46,6 @@ li {
 .value {
   font-weight: 700;
 }
-li:first-child {
+.listItem:first-child {
   border-left: none;
 }
